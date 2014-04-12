@@ -1,4 +1,4 @@
-trip_to_germany
+Trip to Germany
 ===============
 
 Final school project

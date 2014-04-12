@@ -1,6 +1,11 @@
 from nose.tools import *
-from GERMANY.germany import Currency
+import GERMANY
 
-def test_dollars():
-    dollars = Currency('dollars')
-    assert_equal(dollars.currency_type, 'dollars')
+def setup():
+    print 'Setup!'
+
+def teardown():
+    print 'Teardown!'
+
+def test_basic():
+    print 'I ran!'
